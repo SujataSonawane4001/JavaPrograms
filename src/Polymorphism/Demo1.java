@@ -1,6 +1,9 @@
 package Polymorphism;
 
 public class Demo1 {
+	public Demo1() {
+		
+	}
 	
 	private void m1(float x,int y) {    //overloading
 		// TODO Auto-generated method stub
@@ -10,10 +13,18 @@ public class Demo1 {
 		// TODO Auto-generated method stub
 
 	}
-	private void m1() {
+	private void m2() {
 		
 
 	}
+   private void m2(int z) {
+		
+
+	}
+   private void m3() {
+	// TODO Auto-generated method stub
+
+  }
    public static void main(String[] args) {
 	
   }
