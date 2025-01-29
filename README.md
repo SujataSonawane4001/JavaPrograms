@@ -1,1 +1,1 @@
-# Magneto
+# Java programs
