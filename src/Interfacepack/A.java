@@ -8,10 +8,18 @@ public class A implements I1 {
 		
 	}
 
-		@Override
-	public void m4() {
+	
+	public void m2() {
 		// TODO Auto-generated method stub
 		
 	}
+	
+	public static void main(String[] args) {
+		A a=new A();
+		//a.m3();
+		
+	}
+
+	
 
 }

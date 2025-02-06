@@ -3,6 +3,7 @@ package Interfacepack;
 public interface I1  {
 	
 	void m1();
+	void m2();
 	
 	// static int i=90;
 	
@@ -14,9 +15,18 @@ public interface I1  {
 //	public static void main(String[] args) {
 //		
 //	}
-	default void m4() {  //default concrete 1.8 version
-		
+//	 default void m3() {  //1.8 version update//default concrete method
+//		 System.out.println("testing");
+//	 }
+//	 
+	 public static void m4() {
+		 System.out.println("hello");
+	 }
+	 
+	public static void main(String[] args) {
+		I1.m4();
 	}
+	 	
 	
 	
 	
